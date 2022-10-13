@@ -1,0 +1,80 @@
+.pokemonCard{
+    width: 40rem;
+    height: 50rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.pokemonCard__header{
+    height: 20%;
+}
+.pokemonCard__title{
+    font-size: 200%;
+    font-weight: 400;
+}
+.pokemonCard__labelWrapper{
+    display: flex;
+    gap: 0.5rem;
+}
+.pokemonCard__type{
+    font-size: 60%;
+    padding: 0.2rem;
+    border-radius: 2rem;
+    width: 8rem;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.pokemonCard__section{
+    height: 60%;
+}
+.pokemonCard__figure{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pokemonCard__img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.pokemonCard__h3Wrapper{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.pokemonCard__HP{
+    font-weight: 400;
+    font-size: 90%;
+}
+
+.pokemonCard__footer{
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+.pokemonCard__button{
+    border: none;
+    background: none;
+    font-size: 100%;
+    padding: 0.5rem 4rem;
+    border-radius: 0.5rem;
+    color: #eee;
+    flex-grow: 1;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+}
+.pokemonCard__button--attack{
+    background: #B33030;
+}
+.pokemonCard__button--catch{
+    background: #2EB086;
+}
